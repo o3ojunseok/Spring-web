@@ -11,7 +11,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@ExtendWith(SpringExtension.class)
+@ExtendWith(SpringExtension.class) // RunWith -> 스프링부트 테스트랑 Junit 연결역할
 @WebMvcTest(controllers = HelloController.class)
 public class HelloControllerTest {
 
